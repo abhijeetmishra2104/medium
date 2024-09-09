@@ -5,5 +5,11 @@ export interface Blog {
     author: {
       name: string;
     };
-  }
+}
+
+export interface SignupInput {
+    name?: string;
+    email: string;
+    password: string;
+}
   

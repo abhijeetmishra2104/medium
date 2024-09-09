@@ -3,7 +3,7 @@ import { Blog } from '../types/types';
 import { Appbar } from './Appbar';
 import { Avatar } from './BlogCard';
 
-// FullBlog Component to display full blog content
+
 export const FullBlog = ({ blog }: { blog: Blog }) => {
   return (
     <div>

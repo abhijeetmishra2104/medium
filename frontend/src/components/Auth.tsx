@@ -1,12 +1,16 @@
-import { SignupInput } from "@abhi__win__2104/medium-common";
+
+
+
 import { ChangeEvent, useState } from "react";
 import { Link } from "react-router-dom";
 import axios  from "axios";
 import { BACKEND_URL } from "../config";
 import { useNavigate } from "react-router-dom";
+import { SignupInput } from "../types/types";
 
 
 export const Auth = ({type}: {type: "signup" | "signin"}) => {
+    
 
     const [userInputs, setUserInputs] = useState<SignupInput>({
         name: "",
